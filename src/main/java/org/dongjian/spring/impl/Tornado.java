@@ -10,6 +10,10 @@ public class Tornado implements CD {
     private String artist = "Jay Chou";
     private List<String> songs;
 
+    public void playSongs() {
+        System.out.println("lalalalalalala....");
+    }
+
     public String getArtist() {
         return artist;
     }
